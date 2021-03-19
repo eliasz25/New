@@ -143,6 +143,7 @@ font-size: 35px;
     -ms-transform: skewY(-3deg);
 }
 /* Cli */
+
 .cli .grid {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -152,12 +153,13 @@ font-size: 35px;
     grid-row: 1 / span 2;
 }
 /* Cloud */
+
 .cloud .grid {
     grid-template-columns: 4fr 3fr;
 }
 /* Languages */
 
-.languages .flex {  /* this make it responsive */
+.languages .flex {  
     flex-wrap: wrap;
 }
 .languages .card {
@@ -173,6 +175,7 @@ font-size: 35px;
     transform: translateY(-15px);
 }
 /* Features */
+
 .features-head img,
 .docs-head img {
   width: 200px;
@@ -195,6 +198,7 @@ font-size: 35px;
     grid-column: 1 / span 2;
  }
  /* Docs */
+
 .docs-main h3 {
     margin: 20px 0;
 } 
@@ -250,6 +254,7 @@ font-size: 35px;
     }
 }
 /* Tablets and under */
+
 @media(max-width: 768px) {
    .grid,
    .showcase .grid,
@@ -294,9 +299,8 @@ font-size: 35px;
 }
 }
 
-
-
 /* Mobile */
+
 @media(max-width: 500px) {
     .navbar {
         height: 110px;
@@ -311,6 +315,5 @@ font-size: 35px;
     .showcase-form {
         width: 300px;
     }
-}<p class="hidden">
-<label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-</p>hidd
+}
+
